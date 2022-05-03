@@ -9,12 +9,30 @@
      <v-col cols="6">
        <h4 class=" black--text text-darden-4 top"> olá meu nome é willian diaz</h4>
        <h1 class="w3-dark-gray--text">desenvolvedor FullStack</h1>
-       <p>“Há apenas uma maneira de evitar críticas: não fazer, não falar e não ser nada.” – Aristóteles</p>
+       <p>“Há apenas uma maneira de evitar críticas: não fazer, não falar e simplesmente ser nada.” – Aristóteles</p>
        <v-btn tile color="#a7121d" dark> mina historia</v-btn>
 
      </v-col>
     <v-col cols="12" class="padd">
       <div class="first" id="parject">
+        <v-row>
+          <v-col cols="12">
+            <div class="child bgColor1">
+              <v-icon color="#A7121D" x-large class="ml-3">
+                mdi-palette-swatch
+              </v-icon>
+              <h3 class="white--text ml-3 mt-4">tener idea</h3>
+              <p class="grey--text ml-3 mt-6">
+                tener una idea<br />texto de idea
+              </p>
+              <v-btn color="#A7121D" dark text>
+                saber mais
+                <v-icon right>mdi-arrow-right </v-icon>
+              </v-btn>
+
+            </div>
+          </v-col>
+        </v-row>
 
       </div>
     </v-col>
