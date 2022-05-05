@@ -4,13 +4,13 @@
 <v-container fluid>
    <v-row>
      <v-col cols="6">
-       <v-img src="IMG-20220502-WA0002-removebg-preview.png" contain max-height="700"></v-img>
+       <v-img src="IMG_20200620_172933309_PORTRAIT_2-removebg-preview.png" contain max-height="700"></v-img>
      </v-col>
      <v-col cols="6">
        <h4 class=" black--text text-darden-4 top"> olá meu nome é willian diaz</h4>
        <h1 class="w3-dark-gray--text">desenvolvedor FullStack</h1>
        <p>“Há apenas uma maneira de evitar críticas: não fazer, não falar e simplesmente ser nada.” – Aristóteles</p>
-       <v-btn tile color="#a7121d" dark> mina historia</v-btn>
+       <v-btn tile color="#A7121D" dark> mina historia</v-btn>
 
      </v-col>
     <v-col cols="12" class="padd">
@@ -18,8 +18,8 @@
         <v-row>
           <v-col cols="12">
             <div class="child bgColor1">
-              <v-icon color="#A7121D" x-large class="ml-3">
-                mdi-palette-swatch
+              <v-icon color="#CFD8DC" x-large class="ml-3">
+                 fa-solid fa-computer
               </v-icon>
               <h3 class="white--text ml-3 mt-4">tener idea</h3>
               <p class="grey--text ml-3 mt-6">
@@ -31,16 +31,75 @@
               </v-btn>
 
             </div>
+            <div class="child bgColor1">
+              <v-icon x-large class="ml-3" color="#CFD8DC">mdi-shopping</v-icon>
+              <h3 class="white--text ml-3 mt-4">en construccion!</h3>
+              <p class="grey--text ml-3 mt-6">
+                vamos a ver que pudeo <br /> poner en este lugar
+                ok.
+              </p>
+              <v-btn color="#A7121D" white text>construindo!
+                <v-icon>mdi-arrow-right</v-icon>
+              </v-btn>
+              </div>
+              <div class="child bgColor1">
+                <v-icon color="#CFD8DC" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
+                <h3 class="white--text ml-3 mt-4">tener una idea</h3>
+                <p class="grey--text ml-3 mt-6">
+                  haciendo la estructura <br />vamos a 
+                  ver que sale
+                </p>
+                <v-btn color="#A7121D" dark text>
+                saber mais
+                <v-icon right>mdi-arrow-right </v-icon>
+              </v-btn>
+              </div>
+          </v-col>
+          <v-col cols="12" class="mt-10">
+            <div class=" child1">
+              <h1 class="red--text text-darken-4 mt-4 number">3</h1>
+              <h3 class="white-text mt-4">anos de experiencia</h3>
+            </div>
+            <div class="child2 mRight">
+              <v-row>
+                <v-col cols="12" class="childco1">
+                  <div class="child2 mButton padding bgColor1">
+                    <h1 class="red--text text--darken-4">00</h1>
+                    <p class="grey--text">idea!</p>
+                  </div>
+                </v-col>
+                <v-col cols="12" class="childco1">
+                  <div class="child2 padding bgColor1">
+                    <h1 class="red--text text--darken-4">00</h1>
+                    <p class="grey--text">en construccion</p>
+                  </div>
+                </v-col>
+              </v-row>
+            </div>
+            <div class="child2 ">
+              <v-row>
+                <v-col cols="12" class="childco1">
+                  <div class="child2 mButton padding bgColor1">
+                    <h1 class="red--text text--darken-4">00</h1>
+                    <p class="grey--text">anos de experiencia!</p>
+                  </div>
+                </v-col>
+                <v-col cols="12" class="childco1">
+                  <div class="child2 padding bgColor1">
+                    <h1 class="red--text text--darken-4">00</h1>
+                    <p class="grey--text">en construccion</p>
+                  </div>
+                </v-col>
+              </v-row>
+            </div>
           </v-col>
         </v-row>
-
-      </div>
+        </div>
     </v-col>
-
-   </v-row>  
+    </v-row>  
 </v-container>
 </v-app>
- 
+
 </template>
 
 <script>
@@ -72,10 +131,10 @@ export default {
   height: 610%;
   background: linear-gradient(
     to right,
-    #181818,
-    #181818 50%,
-    #111111 50%,
-    #111111 50%
+    #000000,
+    #CFD8DC 50%,
+    #000000 50%,
+    #CFD8DC 50%
   );
   text-align: center;
   padding: 2rem 2rem;
@@ -103,7 +162,7 @@ export default {
   margin: 8px;
 }
 .bgColor1 {
-  background-color: #1e1e1e ;
+  background-color: #000000 ;
 }
 .bgColor2 {
   background: #ce1d2a;
