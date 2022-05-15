@@ -7,9 +7,9 @@
        <v-img src="IMG_20200620_172933309_PORTRAIT_2-removebg-preview.png" contain max-height="700"></v-img>
      </v-col>
      <v-col cols="6">
-       <h4 class=" black--text text-darden-4 top"> olá meu nome é willian diaz</h4>
-       <h1 class="w3-dark-gray--text">desenvolvedor FullStack</h1>
-       <p>“Há apenas uma maneira de evitar críticas: não fazer, não falar e simplesmente ser nada.” – Aristóteles</p>
+       <h4 class=" black--text text-darden-4 top"> Olá meu nome é Willian Diaz</h4>
+       <h1 class="w3-dark-gray--text">Desenvolvedor FullStack</h1>
+       <p>“Às vezes, quando você inova, comete erros. É melhor admiti-los rapidamente e continuar a melhorar suas outras inovações.” Steve Jobs</p>
        <v-btn tile color="#A7121D" dark> mina historia</v-btn>
 
      </v-col>
@@ -58,7 +58,7 @@
           <v-col cols="12" class="mt-10">
             <div class=" child1">
               <h1 class="red--text text-darken-4 mt-4 number">3</h1>
-              <h3 class="white-text mt-4">anos de experiencia</h3>
+              <h3 class="white-text mt-4">anos de expca</h3>
             </div>
             <div class="child2 mRight">
               <v-row>
